@@ -11,8 +11,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "npm run lint && npm run build",
-    "postinstall": "patch-package"
+    "test": "npm run lint && npm run build"
   },
   "browser": {
     "@prisma/client": false,
@@ -31,14 +30,13 @@
     "react-dom": "18.2.0",
     "react-sketch-canvas": "^6.2.0",
     "react-spinners": "^0.13.8",
-    "replicate": "^0.5.0",
+    "replicate": "github:replicate/replicate-js#avoid-using-assert-import-magic-new-thing",
     "upload-js-full": "^1.22.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
-    "patch-package": "^6.5.1",
     "postcss": "^8.4.16",
     "prisma": "^4.10.1",
     "tailwindcss": "^3.1.8",
